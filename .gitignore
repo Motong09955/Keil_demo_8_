@@ -5,3 +5,21 @@ MDK-ARM/*.uvguix.*
 # Keil 编译输出
 MDK-ARM/keil_proj_demo/
 MDK-ARM/startup_stm32f405xx.lst
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.map
+*.lnp
+*.htm
+*.lst
+
+# Keil 生成的调试与运行时配置
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+
+# Keil 备份文件
+*.bak
+*.uvprojx.bak
