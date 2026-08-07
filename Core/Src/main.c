@@ -137,7 +137,13 @@ int main(void)
       current_led++; /* 等价于 current_led = current_led + 1 */
     }
 
-    beep(BEEP_MS);
+    int beep_ms = BEEP_MS; 
+    for (; beep_ms > 0; beep_ms -= 10)
+    {
+      beep(beep_ms);
+      HAL_Delay(beep_ms/2); 
+    }
+    
 
     /* if / else 判断：让延时每次变快一点，到 100 后重新回到初始值 */
     if (delay_ms > 100U)
