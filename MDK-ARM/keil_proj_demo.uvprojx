@@ -544,6 +544,31 @@
               <FileType>1</FileType>
               <FilePath>..\user\src\user_beep.c</FilePath>
             </File>
+            <File>
+              <FileName>alarm_sys_func.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user\src\alarm_sys_func.c</FilePath>
+            </File>
+            <File>
+              <FileName>beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user\src\beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>blink_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user\src\blink_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>beep.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\user\inc\beep.h</FilePath>
+            </File>
+            <File>
+              <FileName>blink_led.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\user\inc\blink_led.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
